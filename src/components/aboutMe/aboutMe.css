@@ -1,0 +1,46 @@
+
+.section-about{
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.image-personal{
+    height: 250px;
+    width: 250px;
+    background-image: url('../../assets/Imagen/gabby.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 10px;
+    border-color: aliceblue;
+}
+h2,p{
+    color: darkgrey;
+    margin: 20px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 100;
+}
+b{
+    color: black;
+}
+
+  /* Media query para dispositivos de escritorio */
+  @media (min-width: 769px) {
+    
+  }
+  .image-personal{
+    height: 381px;
+    width: 381px;
+
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    width: 543px;
+}
+
+  

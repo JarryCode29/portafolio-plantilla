@@ -1,0 +1,41 @@
+/* Gallery.css */
+
+.section-gallery{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Una columna por defecto */
+   
+  }
+
+  
+  .gallery img {
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+    
+  }
+  .gallery img:hover{
+    width: 100%;
+    height: 250px;
+    z-index: 999;
+    background-color: orange;
+    
+  }
+ 
+ 
+
+  
+  /* Media query para dispositivos de escritorio */
+  @media (min-width: 769px) {
+    .gallery {
+      grid-template-columns: repeat(3, 1fr); /* Cambia a tres columnas en dispositivos de escritorio */
+    }
+  }
+  
